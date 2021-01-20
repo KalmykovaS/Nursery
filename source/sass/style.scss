@@ -1,31 +1,23 @@
-$font-stack: "PT Sans", "Arial", sans-serif;
-$font-important: "PT Sans Bold", "Arial Black", sans-serif;
-$light-blue: #81b3d2;
-$grey: #eeeeee;
-$tablet-width: 768px;
-$desktop-width: 1200px;
-
 * {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "PT Sans";
+body {
+  @include zeroing;
+  font-size: 11px;
+  line-height: 16px;
   font-weight: 400;
-  src: url("../fonts/ptsans.woff2") format("woff2"),
-    url("../fonts/ptsans.woff") format("woff");
-}
-
-@font-face {
-  font-family: "PT Sans Bold";
-  font-weight: 700;
-  src: url("../fonts/ptsansbold.woff2") format("woff2"),
-    url("../fonts/ptsansbold.woff") format("woff");
+  color: $white;
+  background-color: $dark;
 }
 
 a {
   text-decoration: none;
-  color: $light-blue;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -43,7 +35,20 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-/*
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  src: url("../fonts/ptsans.woff2") format("woff2"),
+    url("../fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  font-weight: 700;
+  src: url("../fonts/ptsansbold.woff2") format("woff2"),
+    url("../fonts/ptsansbold.woff") format("woff");
+}
+
 @import "mixins.scss";
-@import "container.scss";
-*/
+@import "variables.scss";
+/*@import "blocks/container.scss";*/
