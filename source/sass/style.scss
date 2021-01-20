@@ -1,3 +1,7 @@
+@import "mixins.scss";
+@import "variables.scss";
+/*@import "blocks/container.scss";*/
+
 * {
   box-sizing: border-box;
 }
@@ -48,7 +52,3 @@ input[type="radio"].visually-hidden {
   src: url("../fonts/ptsansbold.woff2") format("woff2"),
     url("../fonts/ptsansbold.woff") format("woff");
 }
-
-@import "mixins.scss";
-@import "variables.scss";
-/*@import "blocks/container.scss";*/
