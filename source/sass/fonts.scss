@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Roboto Light";
+  font-weight: 300;
+  src: url("../fonts/Robotolight.woff2") format("woff2"),
+    url("../fonts/Robotolight.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/Roboto.woff2") format("woff2"),
+    url("../fonts/Roboto.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  font-weight: 500;
+  src: url("../fonts/Robotomedium.woff2") format("woff2"),
+    url("../fonts/Robotomedium.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  font-weight: 700;
+  src: url("../fonts/Robotobold.woff2") format("woff2"),
+    url("../fonts/Robotobold.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yeseva One";
+  font-weight: 400;
+  src: url("../fonts/yesevaone.woff2") format("woff2"),
+    url("../fonts/yesevaone.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,54 +1,11 @@
+@import "fonts.scss";
 @import "mixins.scss";
 @import "variables.scss";
-/*@import "blocks/container.scss";*/
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  @include zeroing;
-  font-size: 11px;
-  line-height: 16px;
-  font-weight: 400;
-  color: $white;
-  background-color: $dark;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-weight: 400;
-  src: url("../fonts/ptsans.woff2") format("woff2"),
-    url("../fonts/ptsans.woff") format("woff");
-}
-
-@font-face {
-  font-family: "PT Sans Bold";
-  font-weight: 700;
-  src: url("../fonts/ptsansbold.woff2") format("woff2"),
-    url("../fonts/ptsansbold.woff") format("woff");
-}
+@import "global.scss";
+@import "blocks/container.scss";
+@import "blocks/sections.scss";
+@import "blocks/pets.scss";
+@import "blocks/breed-features.scss";
+@import "blocks/faq.scss";
+@import "blocks/reviews.scss";
+@import "blocks/show.scss";
