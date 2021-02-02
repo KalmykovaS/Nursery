@@ -10,6 +10,8 @@ html {
 
 body {
   @include zeroing;
+  min-width: 320px;
+  font-family: $font-usual;
   font-size: 11px;
   line-height: 16px;
   font-weight: 400;
