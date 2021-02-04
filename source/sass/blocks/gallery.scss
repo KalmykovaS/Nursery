@@ -1,0 +1,24 @@
+.gallery {
+  margin: 0 30px;
+  width: 100%;
+  background-color: $light-grey;
+}
+
+.gallery__item-img {
+  width: 234px;
+
+  &--bottom,
+  &--large {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .gallery {
+    margin: 0 55px;
+  }
+
+  .gallery__item-img {
+    width: 530px;
+  }
+}
